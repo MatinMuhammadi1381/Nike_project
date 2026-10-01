@@ -4,6 +4,20 @@
 
 A responsive Nike-inspired shoe storefront landing page built with React, Tailwind CSS, and Vite. The project highlights product presentation, bold typography, responsive layouts, and interactive product image selection.
 
+## Screenshots
+
+**Featured collection · مجموعهٔ منتخب**
+
+![Featured collection](docs/screenshots/home.png)
+
+**Popular shoes · کفش‌های پرطرفدار**
+
+![Popular shoes](docs/screenshots/products.png)
+
+**Special offer · پیشنهاد ویژه**
+
+![Special offer](docs/screenshots/special-offer.png)
+
 ## Features
 
 - Hero section with featured shoe and collection thumbnails
