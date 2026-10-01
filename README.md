@@ -1,5 +1,7 @@
 # Nike Project
 
+**English** · [فارسی](#فارسی)
+
 A responsive Nike-inspired shoe storefront landing page built with React, Tailwind CSS, and Vite. The project highlights product presentation, bold typography, responsive layouts, and interactive product image selection.
 
 ## Features
@@ -27,11 +29,13 @@ A responsive Nike-inspired shoe storefront landing page built with React, Tailwi
 ~~~bash
 git clone https://github.com/MatinMuhammadi1381/Nike_project.git
 cd Nike_project
-npm install
+npm ci
 npm run dev
 ~~~
 
 Open the local URL shown by Vite, usually http://localhost:5173.
+
+On Windows, `INSTALL-DEPENDENCIES.bat` performs the same clean install using `package-lock.json`.
 
 ## Available Scripts
 
@@ -62,3 +66,32 @@ src/
 ## Scope
 
 This is a front-end storefront showcase. It does not include a shopping cart, checkout flow, inventory service, or payment integration.
+
+---
+
+## فارسی
+
+یک صفحهٔ فرود واکنش‌گرا با الهام از فروشگاه کفش Nike که با React، Tailwind CSS و Vite ساخته شده است. صفحه بر نمایش محصول، تایپوگرافی و چیدمان واکنش‌گرا تمرکز دارد.
+
+### امکانات
+
+- بخش معرفی محصول با تصویر اصلی و انتخاب تصویر از بندانگشتی‌ها
+- شبکهٔ محصولات، خدمات، معرفی کیفیت، دیدگاه مشتریان و پیشنهاد ویژه
+- نوار پیمایش و پابرگ واکنش‌گرا
+
+### فناوری‌ها و راه‌اندازی
+
+React 18، Vite، Tailwind CSS، PostCSS و JavaScript (JSX). به Node.js و npm نیاز دارید:
+
+~~~bash
+git clone https://github.com/MatinMuhammadi1381/Nike_project.git
+cd Nike_project
+npm ci
+npm run dev
+~~~
+
+در ویندوز، `INSTALL-DEPENDENCIES.bat` را اجرا کنید. Vite نشانی محلی (معمولاً `http://localhost:5173`) را نمایش می‌دهد. دستورهای اصلی عبارت‌اند از `npm run build`، `npm run preview` و `npm run lint`.
+
+### محدوده
+
+این پروژه یک نمونهٔ نمایشی فرانت‌اند است و سبد خرید، پرداخت، مدیریت موجودی یا اتصال به سرویس فروش واقعی ندارد.
